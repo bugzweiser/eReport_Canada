@@ -1,13 +1,13 @@
 
     //Dealer Lookup
     function getHDealer() {
-        window.open("_blank").location.href = "http://gds.hysis.hyundaicanada.com/eReport/diaglist.aspx?uid=GDS&cpcode=B06AA" + document.getElementById("dealerH").value;
+        window.open("_blank").location.href = "http://gds.hysis.hyundaicanada.com/eReport/diaglist.aspx?uid=GDS&cpcode=B06AA" + document.getElementById("dealerH").value + "&device=GDSM";
         return false;
     }
 
     //VIN Lookup
     function getHVin() {
-        window.open("_blank").location.href = "http://gds.hysis.hyundaicanada.com/eReport/diaglist.aspx?uid=GDS&cpcode=b06aa&vin=" + document.getElementById("vinH").value;
+        window.open("_blank").location.href = "http://gds.hysis.hyundaicanada.com/eReport/diaglist.aspx?uid=GDS&cpcode=b06aa&vin=" + document.getElementById("vinH").value +"&device=GDSM";
         return false;
     }
     //Genesis Dealer Lookup
